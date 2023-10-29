@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+}
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width:1440px){
+  body {
+    background-color: green;
+  }
+}
